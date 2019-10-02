@@ -1,12 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <title>Cart</title>
+  <link href="folders/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="cart.js">
+  <link href="Styles.css" rel="stylesheet" />
 </head>
-<body>
-  <script src="/script.js"></script>  
+
+<body class="container">
+  <nav>
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="pull-left">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span
+              id="total-count" class="total-count"></span>)</button>
+        </div>
+        <div class="pull-right">
+          <buttonclass="pull-right" class="clear-cart btn btn-danger" onclick="ClearCartBtn()">Clear
+            Cart</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Main -->
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-sm-3">-->
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="iphone x.png" alt=" Mobile 1">
+        <div class="card-block">
+          <h4 class="card-title">Mobile1</h4>
+          <p class="card-text">Price: $240.00</p>
+          <a id="Product1" href="#" data-name="Mobile1" data-price="240.00" class="add-to-cart btn btn-primary"
+            onclick="AddToCartBtn(1)">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <!--<div class="col-sm-3">-->
+    <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="plus5.jpeg" alt=" Mobile 2">
+      <div class="card-block">
+        <h4 class="card-title">Mobile2</h4>
+        <p class="card-text">Price: $370.50</p>
+        <a id="Product2" href="#" data-name="Mobile2" data-price="370.50" class="add-to-cart btn btn-primary"
+          onclick="AddToCartBtn(2)">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <!--<div class="col-sm-3">-->
+  <div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="galaxy s8.jpg" alt=" Mobile 3">
+    <div class="card-block">
+      <h4 class="card-title">Mobile3</h4>
+      <p class="card-text">Price: $98</p>
+      <a id="Product3" href="#" data-name="Mobile3" data-price="98" class="add-to-cart btn btn-primary"
+        onclick="AddToCartBtn(3)">Add to cart</a>
+    </div>
+  </div>
+  </div>
+  <!--<div class="col-sm-3">-->
+  <div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="lg.jpg" alt=" Mobile 4">
+    <div class="card-block">
+      <h4 class="card-title">Mobile4</h4>
+      <p class="card-text">Price: $119</p>
+      <a id="Product4" href="#" data-name="Mobile4" data-price="119" class="add-to-cart btn btn-primary"
+        onclick="AddToCartBtn(4)">Add to cart</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table id="show-cart" class="show-cart table"></table>
+          <div>Total price: $<span id="total-cart" class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="Scripts/jquery-1.9.1.js"></script>
+  <script src="Scripts/bootstrap.js"></script>
+  <script src="Cart.js"></script>
+  <script src="TestJs.js"></script>
 </body>
+
 </html>
