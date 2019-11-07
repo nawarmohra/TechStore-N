@@ -7,7 +7,6 @@
     --GradiantRed: matrix(1 0 0 -1 0 130);
   }
 
- 
 .header{
     background-color: var(--Black);
     height:70px;
@@ -24,6 +23,7 @@ a, a:link, a:visited{
  color:#ffffff;
  text-decoration:none; 
 }
+
 .header img{
    width: 30px;
    height: 30px;
@@ -36,9 +36,8 @@ a, a:link, a:visited{
 .counter{
      display: inline-block;
      color: var(--White);
-     font-size: 10px;
+     font-size: 15px;
      background: transparent;
-     position: relative;
      left: 30px;
      top: 3px;
      z-index: 1000;
@@ -120,7 +119,21 @@ input[type=search], input[type=text], input[type=password]  {
     }
 }
 
+.text-center{
+    text-align: center!important;
+    font-weight: bold;
+    font-size: 70px;
+}
 
+
+  p{
+    font-size: 20px;
+  }
+
+div {
+    align-content: center;
+    text-align: center;
+  }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     .header{
@@ -134,4 +147,14 @@ input[type=search], input[type=text], input[type=password]  {
         margin-top: 100px;
 
     }
+}
+
+.Mobilediv{
+
+border: solid #5596f5 3px;
+border-radius: 20px;
+padding: 20px;
+background-color: #f5f5f5;
+max-width: 50%;
+margin: 20px;
 }
