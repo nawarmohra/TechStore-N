@@ -1,0 +1,137 @@
+:root {
+    --Blue: #5596F5;
+    --Red: #E64E4E;
+    --Black:  #212121;
+    --Gray: #F5F5F5;
+    --White: #FFFFFF;
+    --GradiantRed: matrix(1 0 0 -1 0 130);
+  }
+
+ 
+.header{
+    background-color: var(--Black);
+    height:70px;
+    width: 100%;
+    margin: 0;
+    padding-left: 10px;
+    color: var(--White);
+/*     position: fixed;
+    top: 0; */
+
+    
+}
+a, a:link, a:visited{
+ color:#ffffff;
+ text-decoration:none; 
+}
+.header img{
+   width: 30px;
+   height: 30px;
+   margin-right: 20px;
+}
+.header h2{
+    margin-right: 20px;
+ }
+
+.counter{
+     display: inline-block;
+     color: var(--White);
+     font-size: 10px;
+     background: transparent;
+     position: relative;
+     left: 30px;
+     top: 3px;
+     z-index: 1000;
+
+ }
+.cart{
+    display: inline-block;
+    height:35px; 
+    width:35px;
+    margin: 5px;
+}
+
+.cart img{
+    height:35px; 
+    width:35px;
+    
+}
+
+.login{
+    background: #212121;
+    color: var(--White);
+    height: 90px;
+    opacity: 0;
+    display: block;
+ 
+
+}
+.innerLoginDiv{
+    padding-left: 10px;
+    display: flex;
+    flex-direction:column;
+    padding-top:13px;
+}
+
+input[type=button], input[type=reset]{
+    background: linear-gradient(180deg, #FF6200 0, #FF0004 50%, #FF004B 100%) !important;
+    border: 0;
+    color: var(--White);
+}
+input[type=search], input[type=text], input[type=password]  {
+    background: transparent;
+    border: 0;
+    color: var(--White);
+    border-bottom: 1px solid -webkit-linear-gradient(180deg, #FF6200 0, #FF0004 50%, #FF004B 100%)
+}
+
+*:focus {
+    outline: none;
+}
+
+.message{
+   padding-top: 7px;
+}
+.mobiles{
+    margin-top: 10px;
+    opacity: 0;
+}
+
+
+/* Media Quries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header{
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 10px;
+        width: 100%;
+        }
+        .header h2{
+            font-weight: bold;
+         }
+    .mobiles{
+             margin-top: 100px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .header{
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 10px;  
+        widows: 100%;     
+    }
+    .mobiles{
+        margin-top: 100px;
+
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>TechStore</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+        <div class="header row align-items-center d-flex">
+                <h2 class="mr-auto"><a href="http://localhost:8000/">TechStore</a></h2> 
+                <div class="search mr-5">
+                        <div class="innerSearchDiv row align-items-center h-100 justify-content-center">
+                            <form name="login">
+                               <input type="search" placeholder="Search" name="searchid"/>                               
+                            </form>
+                        </div>
+                </div>
+                <img src="login.svg" alt="login" height="20" class="signinsignup" width="20">
+                <span class="badge counter">0</span>
+                <span class="cart">
+                    <img class="bd-highlight " src="cart.svg" alt="cart">
+                </span>
+            </div>
+        <div class="login container" id="loginForm">
+            <div class="innerLoginDiv row align-items-center h-100 justify-content-center">
+                <form name="login">
+                    <input class="username" type="text" placeholder="Username" name="userid"/>
+                    <input class="pass" type="password" placeholder="Password" name="pswrd"/>
+                    <input type="button" onclick="check(this.form)" value="Login" class="loginBtn"/>
+                </form>
+                <div><p class="message"></p></div>  
+            </div>
+              
+        </div>
+ 
+          <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content text-center">
+            <div class="modal-header">
+              <h4 class="modal-title">Dear Customer</h4>
+            </div>
+            <div class="modal-body">
+                <p>We have received your order!</p>
+                <p>Thanks for the purchase with TechStore! you will find a summary of your recent purchase below.</p>
+                <img src="bag.png" alt="bag">
+                <p>Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process and ship your order.
+                    You will receive another email when your order has shipped.</p>
+                <p> <strong>Order Number:</strong> 1101 </p> 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    <div class="mobiles"></div>
+
+<!--     <footer class="footer text-center">copyright @ 2019</footer>
+ -->    
+    <script src="script.js"></script>   
+   
+</body>
+</html>

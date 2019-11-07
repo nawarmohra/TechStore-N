@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:url(#SVGID_3_);stroke-width:6;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:url(#SVGID_4_);stroke-width:7;stroke-miterlimit:10;}
+</style>
+<title>Favorite</title>
+<desc>Created with Sketch.</desc>
+<g>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="63.95" y1="113.875" x2="63.95" y2="82.775" gradientTransform="matrix(1 0 0 -1 0 130)">
+		<stop  offset="0" style="stop-color:#F16322"/>
+		<stop  offset="1" style="stop-color:#F16322"/>
+	</linearGradient>
+	<path id="SVGID_2_" class="st0" d="M47.2,44.2h33.4v-8.4c0-9.2-7.5-16.7-16.7-16.7s-16.7,7.5-16.7,16.8V44.2z"/>
+</g>
+<g>
+	
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="63.9943" y1="89.275" x2="63.9943" y2="15.375" gradientTransform="matrix(1 0 0 -1 0 130)">
+		<stop  offset="0" style="stop-color:#F16322"/>
+		<stop  offset="0.507" style="stop-color:#EC2024"/>
+		<stop  offset="1" style="stop-color:#EC1B50"/>
+	</linearGradient>
+	<path id="SVGID_1_" class="st1" d="M47.2,44.2h-19l-6.1,66.9h83.7L100,44.2H80.7H47.2z"/>
+</g>
+</svg>

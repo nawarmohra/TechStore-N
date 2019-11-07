@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:url(#path-1_2_);stroke-width:8;stroke-miterlimit:10;}
+</style>
+<title>Favorite</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Favorite">
+		<g id="Favorites-icon">			
+				<linearGradient id="path-1_2_" gradientUnits="userSpaceOnUse" x1="64.3" y1="114.0174" x2="64.3" y2="13.1099" gradientTransform="matrix(1 0 0 -1 0 130)">
+				<stop  offset="0" style="stop-color:#F16322"/>
+				<stop  offset="0.507" style="stop-color:#EC2024"/>
+				<stop  offset="1" style="stop-color:#EC1B50"/>
+			</linearGradient>
+			<path id="path-1_1_" class="st0" d="M64.3,112c89.3-62.8,29.1-115.6,0-81.1C35.2-3.6-25,49.2,64.3,112z"/>
+		</g>
+	</g>
+</g>
+</svg>
