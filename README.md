@@ -26,6 +26,9 @@ There were a couple of difficulties during the development process.
 2: Data flow was another thing that took time to understand?
 3: It was difficult to delete the items from the shop page, the amount still saved in the storage.
 4: we had an issue with Amir computer he could not push anything from his computer to Github so He send file to Nawar and   she did instead of him , We had collaboration.
+5: We faced an issue with updating the number of items in the cart after the reloading we fixed by just add a single line
+      document.getElementsByClassName("counter")[0].innerHTML = (JSON.parse(localStorage.getItem("cartItems"))).length;
+below phoneDOM.style.opacity = "1"; in DOMContentLoader 
 
 ## Tools & technologies:
 
