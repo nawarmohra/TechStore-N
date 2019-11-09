@@ -16,7 +16,9 @@ In Phone Class,  we have used fetch API to retrieve data from json file.
 Display class is mainly focusing on display the phones(image, title. price) on interface. displayPhones, addToCart and setCartValues are the main functions that we have created to perform certain operations.
 ### Storage:
 Storage Class is used to store, receive and update  data in local database. To perform these operations we have created 6 different functions. Name of these functions are db, getUserItem, saveCart, getSaveCart, saveTotalAmount, getTotalAmount.
+### User:
 
+### Update:
 #### loginForm:
 
 (username == "Mohsin" && pass == "root")
