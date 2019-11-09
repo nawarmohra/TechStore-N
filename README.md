@@ -25,7 +25,7 @@ There were a couple of difficulties during the development process.
 1: It was difficult to decide the architecture of the whole system e.g how many classes should we have? What will be the methods or functions should we have?
 2: Data flow was another thing that took time to understand?
 3: It was difficult to delete the items from the shop page, the amount still saved in the storage.
-4: we had an issue with Amir computer he could not push from his computer so Nawar helped him with his mission.
+4: we had an issue with Amir computer he could not push anything from his computer to Github so He send file to Nawar and   she did instead of him , We had collaboration.
 
 ## Tools & technologies:
 

@@ -9,19 +9,16 @@
 
 .header{
     background-color: var(--Black);
-    height:70px;
-    width: 100%;
     margin: 0;
     padding-left: 10px;
     color: var(--White);
-/*     position: fixed;
-    top: 0; */
-
-    
+    height: 70px;
 }
+
 a, a:link, a:visited{
  color:#ffffff;
  text-decoration:none; 
+ margin-left: 20px;
 }
 
 .header img{
@@ -29,6 +26,11 @@ a, a:link, a:visited{
    height: 30px;
    margin-right: 20px;
 }
+
+h4{
+    margin-top: 20px;
+}
+
 .header h2{
     margin-right: 20px;
  }
@@ -41,20 +43,17 @@ a, a:link, a:visited{
      left: 30px;
      top: 3px;
      z-index: 1000;
-
  }
-.cart{
-    display: inline-block;
-    height:35px; 
-    width:35px;
-    margin: 5px;
-}
 
-.cart img{
-    height:35px; 
-    width:35px;
-    
-}
+ .Mobilediv{
+
+    border: solid #5596f5 3px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    max-width: 50%;
+    margin-left: 5px;
+    }
 
 .login{
     background: #212121;
@@ -62,14 +61,6 @@ a, a:link, a:visited{
     height: 90px;
     opacity: 0;
     display: block;
- 
-
-}
-.innerLoginDiv{
-    padding-left: 10px;
-    display: flex;
-    flex-direction:column;
-    padding-top:13px;
 }
 
 input[type=button], input[type=reset]{
@@ -106,7 +97,7 @@ input[type=search], input[type=text], input[type=password]  {
         z-index: 1000;
         top: 0;
         left: 10px;
-        width: 100%;
+
         }
         .header h2{
             font-weight: bold;
@@ -125,7 +116,6 @@ input[type=search], input[type=text], input[type=password]  {
     font-size: 70px;
 }
 
-
   p{
     font-size: 20px;
   }
@@ -134,27 +124,53 @@ div {
     align-content: center;
     text-align: center;
   }
+
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     .header{
         position: fixed;
         z-index: 1000;
         top: 0;
-        left: 10px;  
-        widows: 100%;     
+        left: 0;  
+        height: 100px;   
     }
     .mobiles{
         margin-top: 100px;
 
     }
+    .row {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .Mobilediv{
+
+        border: solid #5596f5 3px;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #f5f5f5;
+        max-width: 50%;
+        margin-bottom: 20px;
+        }
 }
 
-.Mobilediv{
 
-border: solid #5596f5 3px;
-border-radius: 20px;
-padding: 20px;
-background-color: #f5f5f5;
-max-width: 50%;
-margin: 20px;
-}
+@media only screen and (max-width: 400px) {
+    header {
+      font-size: 0.8em;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      margin-top: 22px;
+    }
+
+    h4{
+        margin: 1em;
+    }
+  
+    #counter {
+      margin-top: 10px;
+    }
+  }
