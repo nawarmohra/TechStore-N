@@ -17,7 +17,11 @@ Display class is mainly focusing on display the phones(image, title. price) on i
 ### Storage:
 Storage Class is used to store, receive and update  data in local database. To perform these operations we have created 6 different functions. Name of these functions are db, getUserItem, saveCart, getSaveCart, saveTotalAmount, getTotalAmount.
 
-## Fetch API: 
+#### loginForm:
+
+(username == "Mohsin" && pass == "root")
+
+##### Fetch API: 
 Fetch Api is a one of the method to fetch resources from DB.There were other possible ways e.g JQuery and Axios to perform fetching task.
 
 ## Difficulties to develop the Project: 
