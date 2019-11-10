@@ -3,7 +3,7 @@ Project Grupp 6
 # Shopping cart using JS
 
 ## Introduction:
-	This project is created using HTML5, CSS, Javascript and local storage. We have stored our initial data in json file. Fetch API has been used to retrieve data from json file.We have used OO concepts to develop this cart system. Project is divided into five classes named Phone, Display and Storage.(Mohsin control the work and he's who created the class and Nawar worked with hem on class)Style & layouting Amir fix it with giving each class name then add the appropriate style in one file. 
+	This project is created using HTML5, CSS, Javascript and local storage. We have stored our initial data in json file. Fetch API has been used to retrieve data from json file.We have used OOP concepts to develop this cart system. Project is divided into 4 classes named Phone, Display, User and Storage.(Mohsin control the work and he's who created the class and Nawar worked with hem on class)Style & layouting Amir fix it with giving each class name then add the appropriate style in one file. 
 
 ### Phone:
 	In Phone Class,  we have used fetch API to retrieve data from json file.
@@ -16,8 +16,6 @@ Project Grupp 6
 	User class is created for login system. We used hard-coded username and password for time being.
 #### loginForm:
 	(username == "Mohsin" && pass == "root")
-### Update:
-	Update class performs all the operations when we delete item from cart e.g it updates the total amount and minus item 	from the cart.
 ##### Fetch API: 
 	Fetch Api is a one of the method to fetch resources from DB.There were other possible ways e.g JQuery and Axios to 	perform fetching task.
 ## Difficulties to develop the Project: 
