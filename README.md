@@ -24,9 +24,11 @@ Project Grupp 6
 	2: Data flow was also a great issue and it took time to understand.
 	3: It was difficult to delete the items from the shop page, the amount still saved in the storage.
 	4: we had an issue with Amir computer he could not push anything from his computer to Github so He send file to Nawar 	and she did instead of him , We had collaboration.
-	5: We faced an issue with updating the number of items in the cart after the reloading we fixed by just add a single 	line document.getElementsByClassName("counter")[0].innerHTML = (JSON.parse(localStorage.getItem("cartItems"))).length; 		below phoneDOM.style.opacity = "1"; in DOMContentLoader 
+	5: We faced an issue with updating the number of items in the cart after the reloading we fixed by just add a single 	line document.getElementsByClassName("counter")[0].innerHTML = (JSON.parse(localStorage.getItem("cartItems"))).length; 		below phoneDOM.style.opacity = "1"; in DOMContentLoader.
+## What could have been done differently:
+	As we used OO principle & ES6 features to develop the project. Everything was working perfectely but when we used template literals in onclick evenlistener it does not work. After plenty of hours of effort we changed our strategy. We decided not to use tenplate literlas for this perticular part of the project instead we created button using document.createElement() and then attached onclick method on the button to achive the goal.
 ## Further Development:
-	Payment system is one of the vital feature that an e-shoping website must have. PayPal, Masterpass, VISA Card, Apple Pay, Google Pay, Amazon Pay are the few of the most popular and relaiable systems in online purchase world. 
+	Payment system is one of the vital feature that an e-shoping website must have. PayPal, Masterpass, VISA Card, Apple Pay, Google Pay, Amazon Pay are the few of the most popular and relaiable systems in online purchase world. However, It was not the requirment of this project.
 ## Tools & technologies:
 	Below is a list of tools and technologies that we have used for development:
 	Html/CSS
