@@ -19,15 +19,12 @@
         async getPhones(){
             try{
                 let result = await fetch("products.json");
-                let data = await result.json();
-                //let products = data.items
-                
+                let data = await result.json();                
                 return data;
             }
             catch(error){
                 console.log(error);
             }
-              //console.log(id , image, name, price, color);
           }
       }
   
@@ -107,7 +104,6 @@
                 console.log(finalCart);
                   
   
-  
                   let div1Cart = document.createElement("div"); 
                   div1Cart.className= "container mt-lg-5 text-center"; 
                   let h2Cart = document.createElement("h2");
@@ -160,7 +156,6 @@
                           })
                           Storage.saveTotalAmount(itemsTotalAmount); 
   
-                          //document.getElementById("totalPriceText").innerHTML = "Total Price: " + Storage.getTotalAmount() + " Kr";
                       }
                       var textButton = document.createTextNode("Remove");
                       removeButton.appendChild(textButton);
@@ -216,32 +211,20 @@
               DOMbutton = buttons;
               let inCart = cart.find(item => item.id === id);
               console.log(inCart);
-            /*  if(inCart){
-                  button.innerText = "Already in Cart";
-                  button.disabled = true;         
-              } */
                   button.addEventListener('click', event => {
-                      
-                      event.target.innerText = "Already in Cart";
-                      event.target.disabled = true;
-  
-                      // Get phone items from local Storage DB
-                      
                       console.log(id);
                       let cartItem = {...Storage.getUserItem(id), amount:1};
                       console.log(cartItem);
-  
+
                       cart = [...cart,cartItem];
                     console.log(cart);
-  
+
                     // Save cart data in local storage
                     Storage.saveCart(cart);
                     
                     this.setCartValue(cart);
                   });
           });
-  
-  
           
       }
       setCartValue(cart){
@@ -251,15 +234,11 @@
       cart.map(item => {
           itemsTotalCount += item.amount;
           itemsTotalAmount += item.price;
-          counter.innerText = itemsTotalCount;
-            //console.log(itemsTotalAmount);
-  
+          counter.innerText = itemsTotalCount;  
       })
             Storage.saveTotalAmount(itemsTotalAmount); 
-            //totalAmount.innerText = Storage.saveTotalAmount(itemsTotalAmount);
           }
       }
-  
   
       //Local Storage DB
       class Storage{
@@ -290,7 +269,6 @@
             }
   
             static saveTotalAmount(totalAmount){
-              //localStorage.setItem("totalAmount", JSON.stringify(totalAmount));
               localStorage.setItem('totalAmount', JSON.stringify(totalAmount));
               var amount_container = document.getElementById("totalAmount");
               if(amount_container!=null){
@@ -316,12 +294,10 @@
           
         display.displayPhones(phones);
         Storage.db(phones);
-        
-          
           phoneDOM.style.transition = "all 5s linear .2s";
           phoneDOM.style.WebkitTransition = "all 5s linear .2s";
           phoneDOM.style.opacity = "1";
-          document.getElementsByClassName("counter")[0].innerHTML = (JSON.parse(localStorage.getItem("cartItems"))).length;
+          document.getElementsByClassName("counter")[0].innerHTML = (JSON.parse(localStorage.getItem("cartItems") || "[]")).length;
         
       }).then(() => {
           display.addToCart();

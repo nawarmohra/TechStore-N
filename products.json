@@ -24,5 +24,41 @@
         "image": "LGV30.png",
         "price": 7495,
         "id":104
+    },{
+        "title": "iPhoneXR",
+        "description": "Super Retina. Specially designed OLED screen.",
+        "image": "iPhoneXR.png",
+        "price": 11999 ,
+        "id":105
+    },{
+        "title": "Sony Xperia",
+        "description": "Gives you great power to handle your daily tasks.",
+        "image": "Sony-Xperia.png",
+        "price": 7990,
+        "id":106
+    },{
+        "title": "Huawei P30",
+        "description": "Huawei P30 Lite smartphone 128 GB (vit).",
+        "image": "Huawei-P30.png",
+        "price": 2490,
+        "id":107
+    },{
+        "title": "Galaxy Fold",
+        "description": "Allows you to use up to three apps at once.",
+        "image": "Galaxy-Fold-.png",
+        "price": 23000,
+        "id":108
+    },{
+        "title": "Sony Xperia 10",
+        "description": "Now it's easier to multitask.",
+        "image": "Sony Xperia 10.png",
+        "price": 2490,
+        "id":109
+    },{
+        "title": "Galaxy Note10",
+        "description": "Powerful mobile phone with 6.3 inch screen.",
+        "image": "Galaxy-Note10.png",
+        "price": 9990,
+        "id":110
     }
 ]
