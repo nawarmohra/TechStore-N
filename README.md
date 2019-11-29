@@ -25,7 +25,8 @@ Project Grupp 6
 	3: It was difficult to delete the items from the shop page, the amount still saved in the storage.
 	4: we had an issue with Amir computer he could not push anything from his computer to Github so He send file to Nawar 	and she did instead of him , We had collaboration.
 	5: We faced an issue with updating the number of items in the cart after the reloading we fixed by just add a single 	line document.getElementsByClassName("counter")[0].innerHTML = (JSON.parse(localStorage.getItem("cartItems"))).length; 		below phoneDOM.style.opacity = "1"; in DOMContentLoader 
-
+## Further Development:
+	Payment system is one of the vital feature that an e-shoping website must have. PayPal, Masterpass, VISA Card, Apple Pay, Google Pay, Amazon Pay are the few of the most popular and relaiable systems in online purchase world. 
 ## Tools & technologies:
 	Below is a list of tools and technologies that we have used for development:
 	Html/CSS
